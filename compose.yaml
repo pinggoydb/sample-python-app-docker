@@ -1,11 +1,9 @@
 services:
   web:
-    constainer_name: python_web_app
     build: .
     ports:
       - "80:80"
   nginx:
-    container_name: nginx
     restart: unless-stopped
     image: nginx
     ports:
