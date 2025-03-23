@@ -18,10 +18,10 @@ def get_hit_count():
             retries -= 1
             time.sleep(0.5)
 
-@app.route('/')
-def hello():
-    count = get_hit_count()
-    return f'<h1>Hello World! I have been seen {count} times.</h1>\n'
+# @app.route('/')
+# def hello():
+#     count = get_hit_count()
+#     return f'<h1>Hello World! I have been seen {count} times.</h1>\n'
 
 @app.route('/hello')
 def index():
