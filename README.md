@@ -1,6 +1,6 @@
 # Dante Pinggoy - Python App
 
-##Deploy Python App
+## Deploy Python App
 
 1. Initial setup
     - In the VPS server git clone from your sample app
@@ -59,7 +59,7 @@
 
 3. Setup SSL with Letsencrypt
 	- Add location in nginx.conf http with
-	 ``bash
+	 ```bash
      location ~ /.well-known/acme-challenge/ {
           root /var/www/certbot;
       }
