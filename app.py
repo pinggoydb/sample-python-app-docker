@@ -23,7 +23,7 @@ app.secret_key = "&uo+!8&luu7vq4k)w+wb8y2&8*9q#9(*(+d3c2)8p#0!6(yj+$"
 #     count = get_hit_count()
 #     return f'<h1>Hello World! I have been seen {count} times.</h1>\n'
 
-@app.route('/hello')
+@app.route('/')
 def index():
     flash("what's your name?")
     return render_template("index.html")
